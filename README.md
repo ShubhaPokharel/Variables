@@ -45,7 +45,7 @@ When the data is specific ( different ) to the object we use the Instance variab
 
 ### Example: 
 
-package com.tcs.model;
+package com.pnc.model;
 
 public class Test {
 
