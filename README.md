@@ -41,3 +41,6 @@ The memory of Static variable is allocted ( created ) when the class is loaded.
 When the data is common to all objects we use the Static variable.
 
 When the data is specific ( different ) to the object we use the Instance variable.
+
+
+### Example: 
