@@ -49,35 +49,35 @@ package com.pnc.model;
 
 public class Test {
 
-  // Instance variables
+    // Instance variables
 
-  int num1 = 10;
+    int num1 = 10;
 
-  int num2 = 20;
+    int num2 = 20;
 
 
-  //static variables
+    //static variables
 
-  static int val1 = 100;
+    static int val1 = 100;
 
-  static int val2 = 200;
+    static int val2 = 200;
 
-  public static void main(String[] args){
+    public static void main(String[] args){
 
-  // local variables
+    // local variables
 
-  int l = 1000;
+    int l = 1000;
 
-  int j = 2000;
+    int j = 2000;
 
-  System.out.println("Local var - " + (l + j));
+    System.out.println("Local var - " + (l + j));
 
-  Test t = new Test();
+    Test t = new Test();
 
-  System.out.println("Instance var - " + (t.num1 + t.num2));
+    System.out.println("Instance var - " + (t.num1 + t.num2));
 
-  System.out.println("Static var - " + (Test.val1 + Test.val2));
+    System.out.println("Static var - " + (Test.val1 + Test.val2));
 
- }
+   }
 
 }
