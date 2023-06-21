@@ -44,3 +44,40 @@ When the data is specific ( different ) to the object we use the Instance variab
 
 
 ### Example: 
+
+package com.tcs.model;
+
+public class Test {
+
+  // Instance variables
+
+  int num1 = 10;
+
+  int num2 = 20;
+
+
+  //static variables
+
+  static int val1 = 100;
+
+  static int val2 = 200;
+
+  public static void main(String[] args){
+
+  // local variables
+
+  int l = 1000;
+
+  int j = 2000;
+
+  System.out.println("Local var - " + (l + j));
+
+  Test t = new Test();
+
+  System.out.println("Instance var - " + (t.num1 + t.num2));
+
+  System.out.println("Static var - " + (Test.val1 + Test.val2));
+
+ }
+
+}
