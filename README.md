@@ -22,9 +22,11 @@ We can access the local variables inside the method, constructor or block dierec
 
 Instance Variables are declared inside the class.
 
-We can access Instance variables with in the class. All methods that are in the class can also access the Instance variables.
+We can access Instance variables with in the object name. To create the object we use the class name. All methods that are in the class access the Instance variables.
 
-The memory allocation of an Instance variable is when the object is created. To create the object we use the class name.
+Memory of Instance variable is created ( allocated ) when the object is created.
+
+When object is created seperate seperate memory is created for each Instance variable.
 
 ## Static Variable..
 
@@ -32,10 +34,10 @@ Static variables are declared inside the class. We use the static modifier to ma
 
 We can access the static variable using the class name.
 
-The memory alloctaion of a Static class is when the class is loaded.
+The memory of Static variable is allocted ( created ) when the class is loaded.
 
-## When to use Static variables and Instance variables
+## When to use Static variables and Instance variables?
 
 When the data is common to all objects we use the Static variable.
 
-When the data is specific ( different ) to all objects we use the Instance variable.
+When the data is specific ( different ) to the object we use the Instance variable.
