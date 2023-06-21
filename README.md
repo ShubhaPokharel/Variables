@@ -15,7 +15,7 @@ Variables are used to store the data. It is like a placeholder.
 
 Local variables are declared inside the method or constructor or blocks.
 
-We can access the local variables only inside the method, constructor or block.
+We can access the local variables inside the method, constructor or block dierectly .
 
 
 ## Instance Variable...
